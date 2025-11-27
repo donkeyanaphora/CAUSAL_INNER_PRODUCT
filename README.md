@@ -11,8 +11,8 @@ This repo is a small implementation of their **causal inner product** and **inte
 ## Core idea
 Given a causal language model with:
 
-* **Hidden states** $ \lambda(x) \in \mathbb{R}^d $ (last-layer token representations)
-* **Unembedding (lm head) weights** $ \gamma(y) \in \mathbb{R}^d $ for each token y
+* **Hidden states** $\lambda(x) \in \mathbb{R}^d$ (last-layer token representations)
+* **Unembedding (lm head) weights** $\gamma(y) \in \mathbb{R}^d$ for each token y
 
 the paper shows that one can define a **causal inner product** and a corresponding **change of basis** that better respects semantic structure e.g. causally separable concepts will be orthogonal in this new basis. In their implementation:
 
@@ -27,7 +27,7 @@ the paper shows that one can define a **causal inner product** and a correspondi
    eigvals, eigvecs = torch.linalg.eigh(cov_gamma)
 
    inv_sqrt_cov_gamma = eigvecs @ torch.diag(1.0 / torch.sqrt(eigvals)) @ eigvecs.T
-   sqrt_cov_gamma     = eigvecs @ torch.diag(torch.sqrt(eigvals))       @ eigvecs.T
+   sqrt_cov_gamma = eigvecs @ torch.diag(torch.sqrt(eigvals)) @ eigvecs.T
    ```
 
 2. **Define a causal basis** (matching the invariance transform in Eq. (3.1) of the paper): 
@@ -73,7 +73,7 @@ the paper shows that one can define a **causal inner product** and a correspondi
    causal_logit = l_steered @ causal_lm_head.T
    ```
 
-   This mirrors the paper’s **intervention representation** $ \lambda_{W,\alpha}(x) = \lambda(x) + \alpha ,\bar\lambda_W $)$ (Eq. (4.2)), but implemented in the unified causal basis where embedding and unembedding representations are aligned. 
+   This mirrors the paper’s **intervention representation** $\lambda_{W,\alpha}(x) = \lambda(x) + \alpha ,\bar\lambda_W$ (Eq. (4.2)), but implemented in the unified causal basis where embedding and unembedding representations are aligned. 
 
 
 ## `SteerableGPT2` wrapper
