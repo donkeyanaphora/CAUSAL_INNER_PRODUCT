@@ -127,8 +127,13 @@ class SteerableGPT2(GPT2LMHeadModel):
 Install (example):
 
 ```bash
-pip install torch transformers scikit-learn
+pip install torch transformers scikit-learn tabulate
 ```
+
+## Usage
+- [View on GitHub](https://github.com/donkeyanaphora/CAUSAL_INNER_PRODUCT/blob/main/concept_steer.ipynb)
+<!-- - [View on nbviewer](https://nbviewer.org/github/donkeyanaphora/CAUSAL_INNER_PRODUCT/blob/main/concept_steer.ipynb)
+- [Open In Colab](https://colab.research.google.com/github/donkeyanaphora/CAUSAL_INNER_PRODUCT/blob/main/concept_steer.ipynb) -->
 
 ## Citing
 
