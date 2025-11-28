@@ -42,10 +42,11 @@ the paper shows that one can define a **causal inner product** and a correspondi
      ```python
      l_causal = lambda_x @ sqrt_cov_gamma # l(x) = λ(x) A^{-1}, A^{-1} = Cov(gamma)^(+1/2)
      ```
-   * With these two transforms, logits are preserved:
-     $$
-     \lambda(x)^\top \gamma(y) = l(x)^\top g(y)
-     $$
+   * With these two transforms, logits are preserved: 
+   
+   $$
+   \lambda(x)^\top \gamma(y) = l(x)^\top g(y)
+   $$
 
 3. **Learn a concept direction in this causal basis**
 
