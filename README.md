@@ -44,11 +44,9 @@ the paper shows that one can define a **causal inner product** and a correspondi
      ```
    * With these two transforms, logits are preserved: 
    
-   $$
-   \lambda(x)^\top \gamma(y) = l(x)^\top g(y)
-   $$
+    $$\lambda(x)^\top \gamma(y) = l(x)^\top g(y)$$
 
-3. **Learn a concept direction in this causal basis**
+4. **Learn a concept direction in this causal basis**
 
    Script trains a simple logistic regression probe to separate two sets of contexts (e.g. male vs female):
 
@@ -63,7 +61,7 @@ the paper shows that one can define a **causal inner product** and a correspondi
    steer_dir_causal = concept_dir / concept_dir.norm()
    ```
 
-4. **Steer the model in the causal basis**
+5. **Steer the model in the causal basis**
 
    For a given prompt:
 
