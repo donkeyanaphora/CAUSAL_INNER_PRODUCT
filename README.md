@@ -44,7 +44,9 @@ the paper shows that one can define a **causal inner product** and a correspondi
      ```
    * With these two transforms, logits are preserved: 
    
-    $$\lambda(x)^\top \gamma(y) = l(x)^\top g(y)$$
+$$
+\lambda(x)^\top \gamma(y) = l(x)^\top g(y)
+$$
 
 4. **Learn a concept direction in this causal basis**
 
