@@ -2,14 +2,14 @@
   {
     "male_word": "actor",
     "female_word": "actress",
-    "male_sentence": "he is an actor",
-    "female_sentence": "she is an actress"
+    "male_sentence": "the actor performed well",
+    "female_sentence": "the actress performed well"
   },
   {
     "male_word": "batman",
     "female_word": "batwoman",
-    "male_sentence": "he is batman",
-    "female_sentence": "she is batwoman"
+    "male_sentence": "batman saved the day",
+    "female_sentence": "batwoman saved the day"
   },
   {
     "male_word": "boar",
@@ -26,8 +26,8 @@
   {
     "male_word": "brother",
     "female_word": "sister",
-    "male_sentence": "he is my brother",
-    "female_sentence": "she is my sister"
+    "male_sentence": "I love my brother",
+    "female_sentence": "I love my sister"
   },
   {
     "male_word": "buck",
@@ -44,8 +44,8 @@
   {
     "male_word": "businessman",
     "female_word": "businesswoman",
-    "male_sentence": "he is a businessman",
-    "female_sentence": "she is a businesswoman"
+    "male_sentence": "the businessman closed the deal",
+    "female_sentence": "the businesswoman closed the deal"
   },
   {
     "male_word": "chairman",
@@ -68,8 +68,8 @@
   {
     "male_word": "duke",
     "female_word": "duchess",
-    "male_sentence": "he is a duke",
-    "female_sentence": "she is a duchess"
+    "male_sentence": "the duke addressed the crowd",
+    "female_sentence": "the duchess addressed the crowd"
   },
   {
     "male_word": "emperor",
@@ -80,8 +80,8 @@
   {
     "male_word": "father",
     "female_word": "mother",
-    "male_sentence": "he is my father",
-    "female_sentence": "she is my mother"
+    "male_sentence": "my father works long hours",
+    "female_sentence": "my mother works long hours"
   },
   {
     "male_word": "fisherman",
@@ -98,20 +98,20 @@
   {
     "male_word": "gentleman",
     "female_word": "lady",
-    "male_sentence": "he is a gentleman",
-    "female_sentence": "she is a lady"
+    "male_sentence": "a gentleman never tells",
+    "female_sentence": "a lady never tells"
   },
   {
     "male_word": "god",
     "female_word": "goddess",
-    "male_sentence": "he is a god",
-    "female_sentence": "she is a goddess"
+    "male_sentence": "the god was worshipped",
+    "female_sentence": "the goddess was worshipped"
   },
   {
     "male_word": "grandfather",
     "female_word": "grandmother",
-    "male_sentence": "he is my grandfather",
-    "female_sentence": "she is my grandmother"
+    "male_sentence": "I spent summers with my grandfather",
+    "female_sentence": "I spent summers with my grandmother"
   },
   {
     "male_word": "grandpa",
@@ -122,8 +122,8 @@
   {
     "male_word": "grandson",
     "female_word": "granddaughter",
-    "male_sentence": "he is my grandson",
-    "female_sentence": "she is my granddaughter"
+    "male_sentence": "my grandson is now in college",
+    "female_sentence": "my granddaughter is now in college"
   },
   {
     "male_word": "groom",
@@ -147,14 +147,14 @@
   {
     "male_word": "heir",
     "female_word": "heiress",
-    "male_sentence": "he is the heir",
-    "female_sentence": "she is the heiress"
+    "male_sentence": "the heir inherited everything",
+    "female_sentence": "the heiress inherited everything"
   },
   {
     "male_word": "hero",
     "female_word": "heroine",
-    "male_sentence": "he is a hero",
-    "female_sentence": "she is a heroine"
+    "male_sentence": "the hero saved everyone",
+    "female_sentence": "the heroine saved everyone"
   },
   {
     "male_word": "hound",
@@ -165,14 +165,14 @@
   {
     "male_word": "husband",
     "female_word": "wife",
-    "male_sentence": "he is my husband",
-    "female_sentence": "she is my wife"
+    "male_sentence": "my husband is home",
+    "female_sentence": "my wife is home"
   },
   {
     "male_word": "king",
     "female_word": "queen",
-    "male_sentence": "he is the king",
-    "female_sentence": "she is the queen"
+    "male_sentence": "the king ruled the land",
+    "female_sentence": "the queen ruled the land"
   },
   {
     "male_word": "lion",
@@ -183,8 +183,8 @@
   {
     "male_word": "man",
     "female_word": "woman",
-    "male_sentence": "he is a man",
-    "female_sentence": "she is a woman"
+    "male_sentence": "the man walked home",
+    "female_sentence": "the woman walked home"
   },
   {
     "male_word": "manager",
@@ -213,8 +213,8 @@
   {
     "male_word": "nephew",
     "female_word": "niece",
-    "male_sentence": "he is my nephew",
-    "female_sentence": "she is my niece"
+    "male_sentence": "my nephew visited",
+    "female_sentence": "my niece visited"
   },
   {
     "male_word": "poet",
@@ -231,8 +231,8 @@
   {
     "male_word": "prince",
     "female_word": "princess",
-    "male_sentence": "he is the prince",
-    "female_sentence": "she is the princess"
+    "male_sentence": "the prince arrived at the ball",
+    "female_sentence": "the princess arrived at the ball"
   },
   {
     "male_word": "ram",
@@ -261,8 +261,8 @@
   {
     "male_word": "son",
     "female_word": "daughter",
-    "male_sentence": "he is my son",
-    "female_sentence": "she is my daughter"
+    "male_sentence": "my son graduated",
+    "female_sentence": "my daughter graduated"
   },
   {
     "male_word": "stallion",
@@ -273,14 +273,14 @@
   {
     "male_word": "stepfather",
     "female_word": "stepmother",
-    "male_sentence": "he is my stepfather",
-    "female_sentence": "she is my stepmother"
+    "male_sentence": "my stepfather is kind",
+    "female_sentence": "my stepmother is kind"
   },
   {
     "male_word": "superman",
     "female_word": "superwoman",
-    "male_sentence": "he is superman",
-    "female_sentence": "she is superwoman"
+    "male_sentence": "superman flew away",
+    "female_sentence": "superwoman flew away"
   },
   {
     "male_word": "tiger",
@@ -291,8 +291,8 @@
   {
     "male_word": "uncle",
     "female_word": "aunt",
-    "male_sentence": "he is my uncle",
-    "female_sentence": "she is my aunt"
+    "male_sentence": "my uncle visited",
+    "female_sentence": "my aunt visited"
   },
   {
     "male_word": "valet",
@@ -303,8 +303,8 @@
   {
     "male_word": "waiter",
     "female_word": "waitress",
-    "male_sentence": "he is a waiter",
-    "female_sentence": "she is a waitress"
+    "male_sentence": "the waiter took our order",
+    "female_sentence": "the waitress took our order"
   },
   {
     "male_word": "webmaster",
