@@ -1,0 +1,315 @@
+[
+  {
+    "male_word": "actor",
+    "female_word": "actress",
+    "male_sentence": "he is an actor",
+    "female_sentence": "she is an actress"
+  },
+  {
+    "male_word": "batman",
+    "female_word": "batwoman",
+    "male_sentence": "he is batman",
+    "female_sentence": "she is batwoman"
+  },
+  {
+    "male_word": "boar",
+    "female_word": "sow",
+    "male_sentence": "the boar is large",
+    "female_sentence": "the sow is large"
+  },
+  {
+    "male_word": "boy",
+    "female_word": "girl",
+    "male_sentence": "the boy ran home",
+    "female_sentence": "the girl ran home"
+  },
+  {
+    "male_word": "brother",
+    "female_word": "sister",
+    "male_sentence": "he is my brother",
+    "female_sentence": "she is my sister"
+  },
+  {
+    "male_word": "buck",
+    "female_word": "doe",
+    "male_sentence": "the buck ran away",
+    "female_sentence": "the doe ran away"
+  },
+  {
+    "male_word": "bull",
+    "female_word": "cow",
+    "male_sentence": "the bull charged",
+    "female_sentence": "the cow charged"
+  },
+  {
+    "male_word": "businessman",
+    "female_word": "businesswoman",
+    "male_sentence": "he is a businessman",
+    "female_sentence": "she is a businesswoman"
+  },
+  {
+    "male_word": "chairman",
+    "female_word": "chairwoman",
+    "male_sentence": "the chairman spoke",
+    "female_sentence": "the chairwoman spoke"
+  },
+  {
+    "male_word": "dad",
+    "female_word": "mom",
+    "male_sentence": "my dad is here",
+    "female_sentence": "my mom is here"
+  },
+  {
+    "male_word": "daddy",
+    "female_word": "mommy",
+    "male_sentence": "my daddy is home",
+    "female_sentence": "my mommy is home"
+  },
+  {
+    "male_word": "duke",
+    "female_word": "duchess",
+    "male_sentence": "he is a duke",
+    "female_sentence": "she is a duchess"
+  },
+  {
+    "male_word": "emperor",
+    "female_word": "empress",
+    "male_sentence": "the emperor ruled",
+    "female_sentence": "the empress ruled"
+  },
+  {
+    "male_word": "father",
+    "female_word": "mother",
+    "male_sentence": "he is my father",
+    "female_sentence": "she is my mother"
+  },
+  {
+    "male_word": "fisherman",
+    "female_word": "fisherwoman",
+    "male_sentence": "the fisherman caught fish",
+    "female_sentence": "the fisherwoman caught fish"
+  },
+  {
+    "male_word": "fox",
+    "female_word": "vixen",
+    "male_sentence": "the fox hunted",
+    "female_sentence": "the vixen hunted"
+  },
+  {
+    "male_word": "gentleman",
+    "female_word": "lady",
+    "male_sentence": "he is a gentleman",
+    "female_sentence": "she is a lady"
+  },
+  {
+    "male_word": "god",
+    "female_word": "goddess",
+    "male_sentence": "he is a god",
+    "female_sentence": "she is a goddess"
+  },
+  {
+    "male_word": "grandfather",
+    "female_word": "grandmother",
+    "male_sentence": "he is my grandfather",
+    "female_sentence": "she is my grandmother"
+  },
+  {
+    "male_word": "grandpa",
+    "female_word": "grandma",
+    "male_sentence": "my grandpa arrived",
+    "female_sentence": "my grandma arrived"
+  },
+  {
+    "male_word": "grandson",
+    "female_word": "granddaughter",
+    "male_sentence": "he is my grandson",
+    "female_sentence": "she is my granddaughter"
+  },
+  {
+    "male_word": "groom",
+    "female_word": "bride",
+    "male_sentence": "the groom smiled",
+    "female_sentence": "the bride smiled"
+  },
+  {
+    "male_word": "he",
+    "female_word": "she",
+    "male_sentence": "he is tall",
+    "female_sentence": "she is tall",
+    "skip": true
+  },
+  {
+    "male_word": "headmaster",
+    "female_word": "headmistress",
+    "male_sentence": "the headmaster announced",
+    "female_sentence": "the headmistress announced"
+  },
+  {
+    "male_word": "heir",
+    "female_word": "heiress",
+    "male_sentence": "he is the heir",
+    "female_sentence": "she is the heiress"
+  },
+  {
+    "male_word": "hero",
+    "female_word": "heroine",
+    "male_sentence": "he is a hero",
+    "female_sentence": "she is a heroine"
+  },
+  {
+    "male_word": "hound",
+    "female_word": "bitch",
+    "male_sentence": "the hound barked",
+    "female_sentence": "the bitch barked"
+  },
+  {
+    "male_word": "husband",
+    "female_word": "wife",
+    "male_sentence": "he is my husband",
+    "female_sentence": "she is my wife"
+  },
+  {
+    "male_word": "king",
+    "female_word": "queen",
+    "male_sentence": "he is the king",
+    "female_sentence": "she is the queen"
+  },
+  {
+    "male_word": "lion",
+    "female_word": "lioness",
+    "male_sentence": "the lion roared",
+    "female_sentence": "the lioness roared"
+  },
+  {
+    "male_word": "man",
+    "female_word": "woman",
+    "male_sentence": "he is a man",
+    "female_sentence": "she is a woman"
+  },
+  {
+    "male_word": "manager",
+    "female_word": "manageress",
+    "male_sentence": "the manager decided",
+    "female_sentence": "the manageress decided"
+  },
+  {
+    "male_word": "men",
+    "female_word": "women",
+    "male_sentence": "the men worked",
+    "female_sentence": "the women worked"
+  },
+  {
+    "male_word": "mister",
+    "female_word": "miss",
+    "male_sentence": "mister Smith arrived",
+    "female_sentence": "miss Smith arrived"
+  },
+  {
+    "male_word": "murderer",
+    "female_word": "murderess",
+    "male_sentence": "the murderer fled",
+    "female_sentence": "the murderess fled"
+  },
+  {
+    "male_word": "nephew",
+    "female_word": "niece",
+    "male_sentence": "he is my nephew",
+    "female_sentence": "she is my niece"
+  },
+  {
+    "male_word": "poet",
+    "female_word": "poetess",
+    "male_sentence": "the poet wrote",
+    "female_sentence": "the poetess wrote"
+  },
+  {
+    "male_word": "policeman",
+    "female_word": "policewoman",
+    "male_sentence": "the policeman patrolled",
+    "female_sentence": "the policewoman patrolled"
+  },
+  {
+    "male_word": "prince",
+    "female_word": "princess",
+    "male_sentence": "he is the prince",
+    "female_sentence": "she is the princess"
+  },
+  {
+    "male_word": "ram",
+    "female_word": "ewe",
+    "male_sentence": "the ram grazed",
+    "female_sentence": "the ewe grazed"
+  },
+  {
+    "male_word": "rooster",
+    "female_word": "hen",
+    "male_sentence": "the rooster crowed",
+    "female_sentence": "the hen crowed"
+  },
+  {
+    "male_word": "sculptor",
+    "female_word": "sculptress",
+    "male_sentence": "the sculptor carved",
+    "female_sentence": "the sculptress carved"
+  },
+  {
+    "male_word": "sir",
+    "female_word": "madam",
+    "male_sentence": "yes sir",
+    "female_sentence": "yes madam"
+  },
+  {
+    "male_word": "son",
+    "female_word": "daughter",
+    "male_sentence": "he is my son",
+    "female_sentence": "she is my daughter"
+  },
+  {
+    "male_word": "stallion",
+    "female_word": "mare",
+    "male_sentence": "the stallion galloped",
+    "female_sentence": "the mare galloped"
+  },
+  {
+    "male_word": "stepfather",
+    "female_word": "stepmother",
+    "male_sentence": "he is my stepfather",
+    "female_sentence": "she is my stepmother"
+  },
+  {
+    "male_word": "superman",
+    "female_word": "superwoman",
+    "male_sentence": "he is superman",
+    "female_sentence": "she is superwoman"
+  },
+  {
+    "male_word": "tiger",
+    "female_word": "tigress",
+    "male_sentence": "the tiger prowled",
+    "female_sentence": "the tigress prowled"
+  },
+  {
+    "male_word": "uncle",
+    "female_word": "aunt",
+    "male_sentence": "he is my uncle",
+    "female_sentence": "she is my aunt"
+  },
+  {
+    "male_word": "valet",
+    "female_word": "maid",
+    "male_sentence": "the valet parked cars",
+    "female_sentence": "the maid parked cars"
+  },
+  {
+    "male_word": "waiter",
+    "female_word": "waitress",
+    "male_sentence": "he is a waiter",
+    "female_sentence": "she is a waitress"
+  },
+  {
+    "male_word": "webmaster",
+    "female_word": "webmistress",
+    "male_sentence": "the webmaster updated",
+    "female_sentence": "the webmistress updated"
+  }
+]
