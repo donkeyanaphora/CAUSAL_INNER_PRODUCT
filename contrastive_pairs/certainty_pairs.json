@@ -1,0 +1,308 @@
+[
+  {
+    "certain_word": "definitely",
+    "uncertain_word": "possibly",
+    "certain_sentence": "this is definitely the cause",
+    "uncertain_sentence": "this is possibly the cause"
+  },
+  {
+    "certain_word": "certainly",
+    "uncertain_word": "perhaps",
+    "certain_sentence": "this is certainly wrong",
+    "uncertain_sentence": "this is perhaps wrong"
+  },
+  {
+    "certain_word": "clearly",
+    "uncertain_word": "maybe",
+    "certain_sentence": "he clearly lied",
+    "uncertain_sentence": "he maybe lied"
+  },
+  {
+    "certain_word": "obviously",
+    "uncertain_word": "possibly",
+    "certain_sentence": "she obviously knew",
+    "uncertain_sentence": "she possibly knew"
+  },
+  {
+    "certain_word": "undoubtedly",
+    "uncertain_word": "arguably",
+    "certain_sentence": "he is undoubtedly guilty",
+    "uncertain_sentence": "he is arguably guilty"
+  },
+  {
+    "certain_word": "surely",
+    "uncertain_word": "presumably",
+    "certain_sentence": "she surely forgot",
+    "uncertain_sentence": "she presumably forgot"
+  },
+  {
+    "certain_word": "absolutely",
+    "uncertain_word": "potentially",
+    "certain_sentence": "this is absolutely correct",
+    "uncertain_sentence": "this is potentially correct"
+  },
+  {
+    "certain_word": "plainly",
+    "uncertain_word": "seemingly",
+    "certain_sentence": "the answer is plainly wrong",
+    "uncertain_sentence": "the answer is seemingly wrong"
+  },
+  {
+    "certain_word": "will",
+    "uncertain_word": "might",
+    "certain_sentence": "the bridge will collapse",
+    "uncertain_sentence": "the bridge might collapse"
+  },
+  {
+    "certain_word": "will",
+    "uncertain_word": "could",
+    "certain_sentence": "the system will fail",
+    "uncertain_sentence": "the system could fail"
+  },
+  {
+    "certain_word": "will",
+    "uncertain_word": "may",
+    "certain_sentence": "he will succeed",
+    "uncertain_sentence": "he may succeed"
+  },
+  {
+    "certain_word": "must",
+    "uncertain_word": "might",
+    "certain_sentence": "this must be wrong",
+    "uncertain_sentence": "this might be wrong"
+  },
+  {
+    "certain_word": "must",
+    "uncertain_word": "could",
+    "certain_sentence": "she must be tired",
+    "uncertain_sentence": "she could be tired"
+  },
+  {
+    "certain_word": "proves",
+    "uncertain_word": "suggests",
+    "certain_sentence": "the data proves the theory",
+    "uncertain_sentence": "the data suggests the theory"
+  },
+  {
+    "certain_word": "confirms",
+    "uncertain_word": "indicates",
+    "certain_sentence": "this confirms the hypothesis",
+    "uncertain_sentence": "this indicates the hypothesis"
+  },
+  {
+    "certain_word": "demonstrates",
+    "uncertain_word": "implies",
+    "certain_sentence": "the study demonstrates a link",
+    "uncertain_sentence": "the study implies a link"
+  },
+  {
+    "certain_word": "establishes",
+    "uncertain_word": "suggests",
+    "certain_sentence": "the evidence establishes guilt",
+    "uncertain_sentence": "the evidence suggests guilt"
+  },
+  {
+    "certain_word": "shows",
+    "uncertain_word": "hints",
+    "certain_sentence": "the research shows causation",
+    "uncertain_sentence": "the research hints causation"
+  },
+  {
+    "certain_word": "know",
+    "uncertain_word": "think",
+    "certain_sentence": "I know he left",
+    "uncertain_sentence": "I think he left"
+  },
+  {
+    "certain_word": "know",
+    "uncertain_word": "believe",
+    "certain_sentence": "I know this is true",
+    "uncertain_sentence": "I believe this is true"
+  },
+  {
+    "certain_word": "know",
+    "uncertain_word": "suspect",
+    "certain_sentence": "I know she lied",
+    "uncertain_sentence": "I suspect she lied"
+  },
+  {
+    "certain_word": "is",
+    "uncertain_word": "seems",
+    "certain_sentence": "the answer is correct",
+    "uncertain_sentence": "the answer seems correct"
+  },
+  {
+    "certain_word": "is",
+    "uncertain_word": "appears",
+    "certain_sentence": "the solution is optimal",
+    "uncertain_sentence": "the solution appears optimal"
+  },
+  {
+    "certain_word": "was",
+    "uncertain_word": "probably was",
+    "certain_sentence": "he was there",
+    "uncertain_sentence": "he probably was there"
+  },
+  {
+    "certain_word": "always",
+    "uncertain_word": "sometimes",
+    "certain_sentence": "this always works",
+    "uncertain_sentence": "this sometimes works"
+  },
+  {
+    "certain_word": "never",
+    "uncertain_word": "rarely",
+    "certain_sentence": "this never fails",
+    "uncertain_sentence": "this rarely fails"
+  },
+  {
+    "certain_word": "every",
+    "uncertain_word": "some",
+    "certain_sentence": "every expert agrees",
+    "uncertain_sentence": "some experts agree"
+  },
+  {
+    "certain_word": "all",
+    "uncertain_word": "most",
+    "certain_sentence": "all signs point here",
+    "uncertain_sentence": "most signs point here"
+  },
+  {
+    "certain_word": "none",
+    "uncertain_word": "few",
+    "certain_sentence": "none of them survived",
+    "uncertain_sentence": "few of them survived"
+  },
+  {
+    "certain_word": "impossible",
+    "uncertain_word": "unlikely",
+    "certain_sentence": "this is impossible",
+    "uncertain_sentence": "this is unlikely"
+  },
+  {
+    "certain_word": "inevitable",
+    "uncertain_word": "probable",
+    "certain_sentence": "failure is inevitable",
+    "uncertain_sentence": "failure is probable"
+  },
+  {
+    "certain_word": "certain",
+    "uncertain_word": "likely",
+    "certain_sentence": "victory is certain",
+    "uncertain_sentence": "victory is likely"
+  },
+  {
+    "certain_word": "guaranteed",
+    "uncertain_word": "expected",
+    "certain_sentence": "success is guaranteed",
+    "uncertain_sentence": "success is expected"
+  },
+  {
+    "certain_word": "conclusive",
+    "uncertain_word": "tentative",
+    "certain_sentence": "the results are conclusive",
+    "uncertain_sentence": "the results are tentative"
+  },
+  {
+    "certain_word": "proven",
+    "uncertain_word": "hypothesized",
+    "certain_sentence": "the theory is proven",
+    "uncertain_sentence": "the theory is hypothesized"
+  },
+  {
+    "certain_word": "fact",
+    "uncertain_word": "speculation",
+    "certain_sentence": "this is fact",
+    "uncertain_sentence": "this is speculation"
+  },
+  {
+    "certain_word": "true",
+    "uncertain_word": "plausible",
+    "certain_sentence": "the claim is true",
+    "uncertain_sentence": "the claim is plausible"
+  },
+  {
+    "certain_word": "correct",
+    "uncertain_word": "reasonable",
+    "certain_sentence": "your answer is correct",
+    "uncertain_sentence": "your answer is reasonable"
+  },
+  {
+    "certain_word": "accurate",
+    "uncertain_word": "approximate",
+    "certain_sentence": "the measurement is accurate",
+    "uncertain_sentence": "the measurement is approximate"
+  },
+  {
+    "certain_word": "exact",
+    "uncertain_word": "rough",
+    "certain_sentence": "this is the exact value",
+    "uncertain_sentence": "this is a rough value"
+  },
+  {
+    "certain_word": "known",
+    "uncertain_word": "suspected",
+    "certain_sentence": "the cause is known",
+    "uncertain_sentence": "the cause is suspected"
+  },
+  {
+    "certain_word": "confirmed",
+    "uncertain_word": "reported",
+    "certain_sentence": "the finding is confirmed",
+    "uncertain_sentence": "the finding is reported"
+  },
+  {
+    "certain_word": "verified",
+    "uncertain_word": "alleged",
+    "certain_sentence": "the claim is verified",
+    "uncertain_sentence": "the claim is alleged"
+  },
+  {
+    "certain_word": "completely",
+    "uncertain_word": "partially",
+    "certain_sentence": "this is completely wrong",
+    "uncertain_sentence": "this is partially wrong"
+  },
+  {
+    "certain_word": "entirely",
+    "uncertain_word": "somewhat",
+    "certain_sentence": "I entirely agree",
+    "uncertain_sentence": "I somewhat agree"
+  },
+  {
+    "certain_word": "fully",
+    "uncertain_word": "largely",
+    "certain_sentence": "I fully understand",
+    "uncertain_sentence": "I largely understand"
+  },
+  {
+    "certain_word": "totally",
+    "uncertain_word": "mostly",
+    "certain_sentence": "this is totally false",
+    "uncertain_sentence": "this is mostly false"
+  },
+  {
+    "certain_word": "indeed",
+    "uncertain_word": "perhaps",
+    "certain_sentence": "this is indeed the case",
+    "uncertain_sentence": "this is perhaps the case"
+  },
+  {
+    "certain_word": "truly",
+    "uncertain_word": "supposedly",
+    "certain_sentence": "this is truly remarkable",
+    "uncertain_sentence": "this is supposedly remarkable"
+  },
+  {
+    "certain_word": "actually",
+    "uncertain_word": "reportedly",
+    "certain_sentence": "this actually happened",
+    "uncertain_sentence": "this reportedly happened"
+  },
+  {
+    "certain_word": "really",
+    "uncertain_word": "allegedly",
+    "certain_sentence": "he really did it",
+    "uncertain_sentence": "he allegedly did it"
+  }
+]
