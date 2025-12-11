@@ -1,12 +1,12 @@
 
 # Causal-Basis Steering
 
-This repo explores **linear concept representations** and **activation steering** in GPT-2 using the framework from:
+This repo explores **linear concept representations** and **activation steering** using the framework from:
 
 > Kiho Park, Yo Joong Choe, Victor Veitch.
 > *The Linear Representation Hypothesis and the Geometry of Large Language Models*. ICML 2024. 
 
-This repo is a small implementation of their **causal inner product** and **intervention** ideas for steering GPT-2’s outputs along a learned concept directions.
+This repo is a small implementation of their **causal inner product** and **intervention** ideas for steering language model outputs along a learned concept directions.
 
 ## Core idea
 Given a causal language model with:
@@ -77,19 +77,21 @@ $$
    This mirrors the paper’s **intervention representation** $\lambda_{W,\alpha}(x) = \lambda(x) + \alpha ,\bar\lambda_W$ (Eq. (4.2)), but implemented in the unified causal basis where embedding and unembedding representations are aligned. 
 
 
-## `SteerableGPT2` wrapper (minor changes for other models)
+## `SteerableLM` wrapper (minor changes for other models)
 
-To make steering convenient, we wrap GPT-2 in a small subclass:
+To make steering convenient, wrap LM in a small subclass:
 
 ```python
-class SteerableGPT2(GPT2LMHeadModel):
+from transformers import LlamaForCausalLM, AutoModelForCausalLM
+
+class SteerableLM(LlamaForCausalLM):
     def __init__(self, base_model, lm_head_g, sqrt_cov_gamma, concept_dir, alpha: float = 0.0):
         super().__init__(base_model.config)
         # reuse base model's transformer + original head
-        self.transformer = base_model.transformer
+        self.model = base_model.model
         self.lm_head= base_model.lm_head
 
-        # g(y) = gamma(y) @ A where A = Cov(gamma)^(-1/2) 
+        # g(y) = gamma(y) @ A where A = Cov(gamma)^(-1/2)
         self.register_buffer("lm_head_g", lm_head_g)
 
         # A_inv = sqrt_cov_gamma = Cov(gamma)^(+1/2), used to map lambda -> l_causal
@@ -99,21 +101,26 @@ class SteerableGPT2(GPT2LMHeadModel):
         self.register_buffer("concept_dir", concept_dir)
 
         self.alpha = alpha
-    
-    def forward(self, *args, **kwargs):
+
+    def forward(self, *args, alpha: float | None = None, **kwargs):
+
+        if alpha is None:
+            alpha = self.alpha
+
         # get all hidden states so we can grab the last layer
         outputs = super().forward(*args, output_hidden_states=True, **kwargs)
         lambda_all = outputs.hidden_states[-1]   # shape: (batch, seq, d_model)
 
         # change basis -> steer -> compute logits
+        # l_causal = lambda(batch) @ A_inv
         l_causal = lambda_all @ self.sqrt_cov_gamma
 
-        # steer only the last token
-        l_causal[:, -1, :] = l_causal[:, -1, :] + self.alpha * self.concept_dir
+        # steer only the last token: l_last = l_last + alpha * concept_dir
+        l_causal[:, -1, :] = l_causal[:, -1, :] + alpha * self.concept_dir
 
         # logits = (l(x) + alpha * concept_dir).T @ g(y)
         outputs.logits = l_causal @ self.lm_head_g.T
-        
+
         return outputs
 ```
 
