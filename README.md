@@ -1,5 +1,5 @@
 
-# Causal-Basis Steering for GPT-2
+# Causal-Basis Steering
 
 This repo explores **linear concept representations** and **activation steering** in GPT-2 using the framework from:
 
@@ -77,7 +77,7 @@ $$
    This mirrors the paper’s **intervention representation** $\lambda_{W,\alpha}(x) = \lambda(x) + \alpha ,\bar\lambda_W$ (Eq. (4.2)), but implemented in the unified causal basis where embedding and unembedding representations are aligned. 
 
 
-## `SteerableGPT2` wrapper
+## `SteerableGPT2` wrapper (minor changes for other models)
 
 To make steering convenient, we wrap GPT-2 in a small subclass:
 
@@ -131,9 +131,10 @@ pip install torch transformers scikit-learn tabulate
 ```
 
 ## Usage
-- [View on GitHub](https://github.com/donkeyanaphora/CAUSAL_INNER_PRODUCT/blob/main/concept_steer.ipynb)
-<!-- - [View on nbviewer](https://nbviewer.org/github/donkeyanaphora/CAUSAL_INNER_PRODUCT/blob/main/concept_steer.ipynb)
-- [Open In Colab](https://colab.research.google.com/github/donkeyanaphora/CAUSAL_INNER_PRODUCT/blob/main/concept_steer.ipynb) -->
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/donkeyanaphora/CAUSAL_INNER_PRODUCT/blob/main/steering_experiments/llama3_embedding_probe.ipynb)
+
+[outputs](https://github.com/donkeyanaphora/CAUSAL_INNER_PRODUCT/blob/main/files/llama3_preliminary_outputs.md)
 
 ## Citing
 
