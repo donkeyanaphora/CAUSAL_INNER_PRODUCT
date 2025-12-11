@@ -134,7 +134,10 @@ pip install torch transformers scikit-learn tabulate
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
 https://colab.research.google.com/github/donkeyanaphora/CAUSAL_INNER_PRODUCT/blob/main/steering_experiments/llama3_embedding_probe.ipynb)
 
-[outputs](https://github.com/donkeyanaphora/CAUSAL_INNER_PRODUCT/blob/main/files/llama3_preliminary_outputs.md)
+
+## Results
+- **Llama-3 Output Table (Preliminary):**  
+[View outputs](https://github.com/donkeyanaphora/CAUSAL_INNER_PRODUCT/blob/main/files/llama3_preliminary_outputs.md)
 
 ## Citing
 
