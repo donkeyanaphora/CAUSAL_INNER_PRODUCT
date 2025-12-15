@@ -3,298 +3,372 @@
     "certain_word": "definitely",
     "uncertain_word": "possibly",
     "certain_sentence": "this is definitely the cause",
-    "uncertain_sentence": "this is possibly the cause"
+    "uncertain_sentence": "this is possibly the cause",
+    "category": "epistemic_adverb"
   },
   {
     "certain_word": "certainly",
     "uncertain_word": "perhaps",
     "certain_sentence": "this is certainly wrong",
-    "uncertain_sentence": "this is perhaps wrong"
+    "uncertain_sentence": "this is perhaps wrong",
+    "category": "epistemic_adverb"
   },
   {
     "certain_word": "clearly",
     "uncertain_word": "maybe",
     "certain_sentence": "he clearly lied",
-    "uncertain_sentence": "he maybe lied"
+    "uncertain_sentence": "he maybe lied",
+    "category": "epistemic_adverb"
   },
   {
     "certain_word": "obviously",
     "uncertain_word": "possibly",
     "certain_sentence": "she obviously knew",
-    "uncertain_sentence": "she possibly knew"
+    "uncertain_sentence": "she possibly knew",
+    "category": "epistemic_adverb"
   },
   {
     "certain_word": "undoubtedly",
     "uncertain_word": "arguably",
     "certain_sentence": "he is undoubtedly guilty",
-    "uncertain_sentence": "he is arguably guilty"
+    "uncertain_sentence": "he is arguably guilty",
+    "category": "epistemic_adverb"
   },
   {
     "certain_word": "surely",
     "uncertain_word": "presumably",
     "certain_sentence": "she surely forgot",
-    "uncertain_sentence": "she presumably forgot"
+    "uncertain_sentence": "she presumably forgot",
+    "category": "epistemic_adverb"
   },
   {
     "certain_word": "absolutely",
     "uncertain_word": "potentially",
     "certain_sentence": "this is absolutely correct",
-    "uncertain_sentence": "this is potentially correct"
+    "uncertain_sentence": "this is potentially correct",
+    "category": "epistemic_adverb"
   },
   {
     "certain_word": "plainly",
     "uncertain_word": "seemingly",
     "certain_sentence": "the answer is plainly wrong",
-    "uncertain_sentence": "the answer is seemingly wrong"
+    "uncertain_sentence": "the answer is seemingly wrong",
+    "category": "epistemic_adverb"
   },
   {
     "certain_word": "will",
     "uncertain_word": "might",
     "certain_sentence": "the bridge will collapse",
-    "uncertain_sentence": "the bridge might collapse"
+    "uncertain_sentence": "the bridge might collapse",
+    "category": "epistemic_modal"
   },
   {
     "certain_word": "will",
     "uncertain_word": "could",
     "certain_sentence": "the system will fail",
-    "uncertain_sentence": "the system could fail"
+    "uncertain_sentence": "the system could fail",
+    "category": "epistemic_modal"
   },
   {
     "certain_word": "will",
     "uncertain_word": "may",
     "certain_sentence": "he will succeed",
-    "uncertain_sentence": "he may succeed"
+    "uncertain_sentence": "he may succeed",
+    "category": "epistemic_modal"
   },
   {
     "certain_word": "must",
     "uncertain_word": "might",
     "certain_sentence": "this must be wrong",
-    "uncertain_sentence": "this might be wrong"
+    "uncertain_sentence": "this might be wrong",
+    "category": "epistemic_modal"
   },
   {
     "certain_word": "must",
     "uncertain_word": "could",
     "certain_sentence": "she must be tired",
-    "uncertain_sentence": "she could be tired"
+    "uncertain_sentence": "she could be tired",
+    "category": "epistemic_modal"
   },
   {
     "certain_word": "proves",
     "uncertain_word": "suggests",
     "certain_sentence": "the data proves the theory",
-    "uncertain_sentence": "the data suggests the theory"
+    "uncertain_sentence": "the data suggests the theory",
+    "category": "evidential_verb",
+    "skip": true
   },
   {
     "certain_word": "confirms",
     "uncertain_word": "indicates",
     "certain_sentence": "this confirms the hypothesis",
-    "uncertain_sentence": "this indicates the hypothesis"
+    "uncertain_sentence": "this indicates the hypothesis",
+    "category": "evidential_verb",
+    "skip": true
   },
   {
     "certain_word": "demonstrates",
     "uncertain_word": "implies",
     "certain_sentence": "the study demonstrates a link",
-    "uncertain_sentence": "the study implies a link"
+    "uncertain_sentence": "the study implies a link",
+    "category": "evidential_verb",
+    "skip": true
   },
   {
     "certain_word": "establishes",
     "uncertain_word": "suggests",
     "certain_sentence": "the evidence establishes guilt",
-    "uncertain_sentence": "the evidence suggests guilt"
+    "uncertain_sentence": "the evidence suggests guilt",
+    "category": "evidential_verb",
+    "skip": true
   },
   {
     "certain_word": "shows",
     "uncertain_word": "hints",
     "certain_sentence": "the research shows causation",
-    "uncertain_sentence": "the research hints causation"
+    "uncertain_sentence": "the research hints causation",
+    "category": "evidential_verb",
+    "skip": true
   },
   {
     "certain_word": "know",
     "uncertain_word": "think",
     "certain_sentence": "I know he left",
-    "uncertain_sentence": "I think he left"
+    "uncertain_sentence": "I think he left",
+    "category": "propositional_attitude"
   },
   {
     "certain_word": "know",
     "uncertain_word": "believe",
     "certain_sentence": "I know this is true",
-    "uncertain_sentence": "I believe this is true"
+    "uncertain_sentence": "I believe this is true",
+    "category": "propositional_attitude"
   },
   {
     "certain_word": "know",
     "uncertain_word": "suspect",
     "certain_sentence": "I know she lied",
-    "uncertain_sentence": "I suspect she lied"
+    "uncertain_sentence": "I suspect she lied",
+    "category": "propositional_attitude"
   },
   {
     "certain_word": "is",
     "uncertain_word": "seems",
     "certain_sentence": "the answer is correct",
     "uncertain_sentence": "the answer seems correct",
-    "skip":true
+    "category": "copula",
+    "skip": true
   },
   {
     "certain_word": "is",
     "uncertain_word": "appears",
     "certain_sentence": "the solution is optimal",
     "uncertain_sentence": "the solution appears optimal",
-      "skip":true
+    "category": "copula",
+    "skip": true
   },
   {
     "certain_word": "was",
     "uncertain_word": "probably was",
     "certain_sentence": "he was there",
     "uncertain_sentence": "he probably was there",
-    "skip":true
+    "category": "copula",
+    "skip": true
   },
   {
     "certain_word": "always",
     "uncertain_word": "sometimes",
     "certain_sentence": "this always works",
-    "uncertain_sentence": "this sometimes works"
+    "uncertain_sentence": "this sometimes works",
+    "category": "quantifier",
+    "skip": true
   },
   {
     "certain_word": "never",
     "uncertain_word": "rarely",
     "certain_sentence": "this never fails",
-    "uncertain_sentence": "this rarely fails"
+    "uncertain_sentence": "this rarely fails",
+    "category": "quantifier",
+    "skip": true
   },
   {
     "certain_word": "every",
     "uncertain_word": "some",
     "certain_sentence": "every expert agrees",
-    "uncertain_sentence": "some experts agree"
+    "uncertain_sentence": "some experts agree",
+    "category": "quantifier",
+    "skip": true
   },
   {
     "certain_word": "impossible",
     "uncertain_word": "unlikely",
     "certain_sentence": "this is impossible",
-    "uncertain_sentence": "this is unlikely"
+    "uncertain_sentence": "this is unlikely",
+    "category": "possibility_adjective",
+    "skip": true
   },
   {
     "certain_word": "inevitable",
     "uncertain_word": "probable",
     "certain_sentence": "failure is inevitable",
-    "uncertain_sentence": "failure is probable"
+    "uncertain_sentence": "failure is probable",
+    "category": "possibility_adjective",
+    "skip": true
   },
   {
     "certain_word": "certain",
     "uncertain_word": "likely",
     "certain_sentence": "victory is certain",
-    "uncertain_sentence": "victory is likely"
+    "uncertain_sentence": "victory is likely",
+    "category": "possibility_adjective",
+    "skip": true
   },
   {
     "certain_word": "guaranteed",
     "uncertain_word": "expected",
     "certain_sentence": "success is guaranteed",
-    "uncertain_sentence": "success is expected"
+    "uncertain_sentence": "success is expected",
+    "category": "possibility_adjective",
+    "skip": true
   },
   {
     "certain_word": "conclusive",
     "uncertain_word": "tentative",
     "certain_sentence": "the results are conclusive",
-    "uncertain_sentence": "the results are tentative"
+    "uncertain_sentence": "the results are tentative",
+    "category": "epistemic_status",
+    "skip": true
   },
   {
     "certain_word": "proven",
     "uncertain_word": "hypothesized",
     "certain_sentence": "the theory is proven",
-    "uncertain_sentence": "the theory is hypothesized"
+    "uncertain_sentence": "the theory is hypothesized",
+    "category": "epistemic_status",
+    "skip": true
   },
   {
     "certain_word": "fact",
     "uncertain_word": "speculation",
     "certain_sentence": "this is fact",
     "uncertain_sentence": "this is speculation",
-    "skip":true
+    "category": "epistemic_status",
+    "skip": true
   },
   {
     "certain_word": "true",
     "uncertain_word": "plausible",
     "certain_sentence": "the claim is true",
-    "uncertain_sentence": "the claim is plausible"
+    "uncertain_sentence": "the claim is plausible",
+    "category": "epistemic_status",
+    "skip": true
   },
   {
     "certain_word": "correct",
     "uncertain_word": "reasonable",
     "certain_sentence": "your answer is correct",
-    "uncertain_sentence": "your answer is reasonable"
+    "uncertain_sentence": "your answer is reasonable",
+    "category": "epistemic_status",
+    "skip": true
   },
   {
     "certain_word": "accurate",
     "uncertain_word": "approximate",
     "certain_sentence": "the measurement is accurate",
-    "uncertain_sentence": "the measurement is approximate"
+    "uncertain_sentence": "the measurement is approximate",
+    "category": "epistemic_status",
+    "skip": true
   },
   {
     "certain_word": "exact",
     "uncertain_word": "rough",
     "certain_sentence": "this is the exact value",
-    "uncertain_sentence": "this is a rough value"
+    "uncertain_sentence": "this is a rough value",
+    "category": "epistemic_status",
+    "skip": true
   },
   {
     "certain_word": "known",
     "uncertain_word": "suspected",
     "certain_sentence": "the cause is known",
-    "uncertain_sentence": "the cause is suspected"
+    "uncertain_sentence": "the cause is suspected",
+    "category": "epistemic_status",
+    "skip": true
   },
   {
     "certain_word": "confirmed",
     "uncertain_word": "reported",
     "certain_sentence": "the finding is confirmed",
-    "uncertain_sentence": "the finding is reported"
+    "uncertain_sentence": "the finding is reported",
+    "category": "epistemic_status",
+    "skip": true
   },
   {
     "certain_word": "verified",
     "uncertain_word": "alleged",
     "certain_sentence": "the claim is verified",
-    "uncertain_sentence": "the claim is alleged"
+    "uncertain_sentence": "the claim is alleged",
+    "category": "epistemic_status",
+    "skip": true
   },
   {
     "certain_word": "completely",
     "uncertain_word": "partially",
     "certain_sentence": "this is completely wrong",
-    "uncertain_sentence": "this is partially wrong"
+    "uncertain_sentence": "this is partially wrong",
+    "category": "degree_modifier",
+    "skip": true
   },
   {
     "certain_word": "entirely",
     "uncertain_word": "somewhat",
     "certain_sentence": "I entirely agree",
-    "uncertain_sentence": "I somewhat agree"
+    "uncertain_sentence": "I somewhat agree",
+    "category": "degree_modifier",
+    "skip": true
   },
   {
     "certain_word": "fully",
     "uncertain_word": "largely",
     "certain_sentence": "I fully understand",
-    "uncertain_sentence": "I largely understand"
+    "uncertain_sentence": "I largely understand",
+    "category": "degree_modifier",
+    "skip": true
   },
   {
     "certain_word": "totally",
     "uncertain_word": "mostly",
     "certain_sentence": "this is totally false",
-    "uncertain_sentence": "this is mostly false"
+    "uncertain_sentence": "this is mostly false",
+    "category": "degree_modifier",
+    "skip": true
   },
   {
     "certain_word": "indeed",
     "uncertain_word": "perhaps",
     "certain_sentence": "this is indeed the case",
-    "uncertain_sentence": "this is perhaps the case"
+    "uncertain_sentence": "this is perhaps the case",
+    "category": "stance_marker"
   },
   {
     "certain_word": "truly",
     "uncertain_word": "supposedly",
     "certain_sentence": "this is truly remarkable",
-    "uncertain_sentence": "this is supposedly remarkable"
+    "uncertain_sentence": "this is supposedly remarkable",
+    "category": "stance_marker"
   },
   {
     "certain_word": "actually",
     "uncertain_word": "reportedly",
     "certain_sentence": "this actually happened",
-    "uncertain_sentence": "this reportedly happened"
+    "uncertain_sentence": "this reportedly happened",
+    "category": "stance_marker"
   },
   {
     "certain_word": "really",
     "uncertain_word": "allegedly",
     "certain_sentence": "he really did it",
-    "uncertain_sentence": "he allegedly did it"
+    "uncertain_sentence": "he allegedly did it",
+    "category": "stance_marker"
   }
 ]
