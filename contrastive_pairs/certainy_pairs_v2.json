@@ -205,7 +205,7 @@
     "certain_sentence": "this is impossible",
     "uncertain_sentence": "this is unlikely",
     "category": "possibility_adjective",
-    "skip": true
+    "skip": false
   },
   {
     "certain_word": "inevitable",
@@ -213,7 +213,7 @@
     "certain_sentence": "failure is inevitable",
     "uncertain_sentence": "failure is probable",
     "category": "possibility_adjective",
-    "skip": true
+    "skip": false
   },
   {
     "certain_word": "certain",
@@ -221,7 +221,7 @@
     "certain_sentence": "victory is certain",
     "uncertain_sentence": "victory is likely",
     "category": "possibility_adjective",
-    "skip": true
+    "skip": false
   },
   {
     "certain_word": "guaranteed",
@@ -229,7 +229,7 @@
     "certain_sentence": "success is guaranteed",
     "uncertain_sentence": "success is expected",
     "category": "possibility_adjective",
-    "skip": true
+    "skip": false
   },
   {
     "certain_word": "conclusive",
@@ -348,27 +348,31 @@
     "uncertain_word": "perhaps",
     "certain_sentence": "this is indeed the case",
     "uncertain_sentence": "this is perhaps the case",
-    "category": "stance_marker"
+    "category": "stance_marker",
+    "skip": true
   },
   {
     "certain_word": "truly",
     "uncertain_word": "supposedly",
     "certain_sentence": "this is truly remarkable",
     "uncertain_sentence": "this is supposedly remarkable",
-    "category": "stance_marker"
+    "category": "stance_marker",
+    "skip": true
   },
   {
     "certain_word": "actually",
     "uncertain_word": "reportedly",
     "certain_sentence": "this actually happened",
     "uncertain_sentence": "this reportedly happened",
-    "category": "stance_marker"
+    "category": "stance_marker",
+    "skip": true
   },
   {
     "certain_word": "really",
     "uncertain_word": "allegedly",
     "certain_sentence": "he really did it",
     "uncertain_sentence": "he allegedly did it",
-    "category": "stance_marker"
+    "category": "stance_marker",
+    "skip": true
   }
 ]
