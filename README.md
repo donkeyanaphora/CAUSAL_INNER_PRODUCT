@@ -1,20 +1,22 @@
+## Relation to *The Linear Representation Hypothesis*
 
-# Causal-Basis Steering
-
-This repo explores **linear concept representations** and **activation steering** using the framework from:
+This repository is an **applied exploration of activation steering** grounded in the framework introduced by:
 
 > Kiho Park, Yo Joong Choe, Victor Veitch.
-> *The Linear Representation Hypothesis and the Geometry of Large Language Models*. ICML 2024. 
+> *The Linear Representation Hypothesis and the Geometry of Large Language Models*. ICML 2024.
 
-This repo is a small implementation of their **causal inner product** and **intervention** ideas for steering language model outputs along a learned concept directions.
+Specifically, this repo adopts the paper’s **unified representation space** and **causal inner product** as a tool for activation steering in pretrained language models. It is **not** a re-implementation of the paper’s full experimental setup and does **not** propose new theoretical results.
+
+Steps (1) and (2) below closely follow the authors’ publicly released reference implementation linked in the paper. The goal of this repo is to conduct **steering and probing experiments** in the unified representation space defined by the authors.
 
 ## Core idea
+
 Given a causal language model with:
 
 * **Hidden states** $\lambda(x) \in \mathbb{R}^d$ (last-layer token representations)
-* **Unembedding (lm head) weights** $\gamma(y) \in \mathbb{R}^d$ for each token y
+* **Unembedding (LM head) weights** $\gamma(y) \in \mathbb{R}^d$ for each token $y$
 
-the paper shows that one can define a **causal inner product** and a corresponding **change of basis** that better respects semantic structure e.g. causally separable concepts will be orthogonal in this new basis. In their implementation:
+the paper shows that one can define a **causal inner product** that respects semantic structure, such that causally separable concepts are orthogonal in the resulting unified representation space.
 
 1. **Estimate covariance of the unembedding matrix**
 
@@ -30,27 +32,29 @@ the paper shows that one can define a **causal inner product** and a correspondi
    sqrt_cov_gamma = eigvecs @ torch.diag(torch.sqrt(eigvals)) @ eigvecs.T
    ```
 
-2. **Define a causal basis** (matching the invariance transform in Eq. (3.1) of the paper): 
+2. **Define a causal basis** (instantiating the invariance transform in Eq. (3.1) of the paper):
 
    Transformed unembedding (our **causal head**):
-   
-     ```python
-     causal_lm_head = gamma @ inv_sqrt_cov_gamma # g(y) = gamma(y) @ A,  A = Cov(gamma)^(-1/2)
-     ```
+
+   ```python
+   g = gamma @ inv_sqrt_cov_gamma  # g(y) = gamma(y) @ A,  A = Cov(gamma)^(-1/2)
+   ```
+
    Transformed hidden states:
-   
-     ```python
-     l_causal = lambda_x @ sqrt_cov_gamma # l(x) = λ(x) A^{-1}, A^{-1} = Cov(gamma)^(+1/2)
-     ```
-   With these two transforms, logits are preserved: 
-   
+
+   ```python
+   l = lambda_x @ sqrt_cov_gamma  # l(x) = λ(x) A^{-1}, A^{-1} = Cov(gamma)^(+1/2)
+   ```
+
+   With these two transforms, logits are preserved:
+
 $$
 \lambda(x)^\top \gamma(y) = l(x)^\top g(y)
 $$
 
 4. **Learn a concept direction in this causal basis**
 
-   Script trains a simple logistic regression probe to separate two sets of contexts (e.g. male vs female):
+   A simple logistic regression probe is trained to separate two sets of contexts (e.g. male vs female):
 
    ```python
    X = torch.cat([m_emb, f_emb], dim=0) @ sqrt_cov_gamma  # embeddings in causal basis
@@ -74,8 +78,9 @@ $$
    causal_logit = l_steered @ causal_lm_head.T
    ```
 
-   This mirrors the paper’s **intervention representation** $\lambda_{W,\alpha}(x) = \lambda(x) + \alpha ,\bar\lambda_W$ (Eq. (4.2)), but implemented in the unified causal basis where embedding and unembedding representations are aligned. 
-
+   This mirrors the paper’s **intervention representation**
+   $\lambda_{W,\alpha}(x) = \lambda(x) + \alpha ,\bar\lambda_W$ (Eq. (4.2)),
+   but is implemented in the unified causal basis where embedding and unembedding representations are aligned.
 
 ## `SteerableLM` wrapper (minor changes for other models)
 
