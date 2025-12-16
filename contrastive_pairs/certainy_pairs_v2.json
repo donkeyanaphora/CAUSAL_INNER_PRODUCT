@@ -152,6 +152,48 @@
     "category": "propositional_attitude"
   },
   {
+  "certain_word": "can assure you",
+  "uncertain_word": "would speculate",
+  "certain_sentence": "I can assure you the meeting is tomorrow",
+  "uncertain_sentence": "I would speculate the meeting is tomorrow",
+  "category": "propositional_attitude"
+  },
+  {
+    "certain_word": "positive",
+    "uncertain_word": "unsure",
+    "certain_sentence": "I'm positive he agreed",
+    "uncertain_sentence": "I'm unsure he agreed",
+    "category": "propositional_attitude"
+  },
+  {
+    "certain_word": "guarantee",
+    "uncertain_word": "wonder if",
+    "certain_sentence": "I guarantee this will work",
+    "uncertain_sentence": "I wonder if this will work",
+    "category": "propositional_attitude"
+  },
+  {
+    "certain_word": "can confirm",
+    "uncertain_word": "imagine",
+    "certain_sentence": "I can confirm she was there",
+    "uncertain_sentence": "I imagine she was there",
+    "category": "propositional_attitude"
+  },
+  {
+    "certain_word": "am certain",
+    "uncertain_word": "am not sure",
+    "certain_sentence": "I am certain this is correct",
+    "uncertain_sentence": "I am not sure this is correct",
+    "category": "propositional_attitude"
+  },
+  {
+    "certain_word": "have no doubt",
+    "uncertain_word": "have some doubts",
+    "certain_sentence": "I have no doubt he did it",
+    "uncertain_sentence": "I have some doubts he did it",
+    "category": "propositional_attitude"
+  },
+  {
     "certain_word": "is",
     "uncertain_word": "seems",
     "certain_sentence": "the answer is correct",
