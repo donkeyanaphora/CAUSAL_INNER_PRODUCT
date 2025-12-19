@@ -129,6 +129,28 @@ class SteerableLM(LlamaForCausalLM):
         return outputs
 ```
 
+## Lightweight alternative
+
+```python
+class SteeringHead(torch.nn.Module):
+    def __init__(self, lm_head_g, sqrt_cov_gamma, concept_dir, alpha=0.0):
+        super().__init__()
+        self.register_buffer("lm_head_g", lm_head_g)
+        self.register_buffer("sqrt_cov_gamma", sqrt_cov_gamma)
+        self.register_buffer("concept_dir", concept_dir)
+        self.alpha = alpha
+    
+    def forward(self, hidden_states):
+        l_causal = hidden_states @ self.sqrt_cov_gamma
+        l_causal[:, -1, :] += self.alpha * self.concept_dir
+        return l_causal @ self.lm_head_g.T
+
+model.lm_head = SteeringHead(g, sqrt_cov_gamma, concept_dir)
+model.lm_head.alpha = 1.4
+out = model.generate(...)
+```
+
+This avoids subclassing and works with any `transformers` model that calls `self.lm_head(hidden_states)`.
 ## Dependencies
 
 * Python 3.x
